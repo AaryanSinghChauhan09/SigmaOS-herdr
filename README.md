@@ -1,6 +1,6 @@
 # SigmaOS herdr
 
-> Forked from omacom/herdr (MIT). See `SIGMAOS_FORK.md`.
+> Forked from SigmaOS/herdr (MIT). See `SIGMAOS_FORK.md`.
 
 
 <p align="center">
