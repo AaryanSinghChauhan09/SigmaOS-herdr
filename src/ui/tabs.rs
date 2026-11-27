@@ -697,7 +697,7 @@ mod tests {
     fn tab_labels_are_centered_in_their_cells() {
         let mut app = AppState::test_new();
         let mut ws = Workspace::test_new("test");
-        ws.tabs[0].set_custom_name("omarchy".into());
+        ws.tabs[0].set_custom_name("sigmaos".into());
 
         app.workspaces = vec![ws];
         app.active = Some(0);
@@ -716,7 +716,7 @@ mod tests {
         let cell: String = (rect.x..rect.x + rect.width)
             .map(|x| buffer[(x, rect.y)].symbol())
             .collect();
-        assert_eq!(cell, "  omarchy  ");
+        assert_eq!(cell, "  sigmaos  ");
     }
 
     #[test]
